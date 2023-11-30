@@ -13,30 +13,37 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+
 </head>
 
 <body class="container">
-  <header>
-    <nav>
-      <a href="./index.html" class="logo-web">Web
-        <span class="logo-studio">Studio</span>
-      </a>
-      <ul class="list">
-        <li><a class="navigation" href="./index.html">Studio</a></li>
-        <li><a class="navigation" href="">Portfolio</a></li>
-        <li><a class="navigation" href="">Contacts </a></li>
-      </ul>
-    </nav>
-    <address class="address">
-      <ul class="list">
-        <li>
-          <a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="address-contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
+  <header class="header">
+    <div class="top-line, container">
+      <nav class="header-nav">
+        <div class="div-logo">
+          <a href="./index.html" class="logo-web">Web
+            <span class="logo-studio">Studio</span>
+          </a>
+        </div>
+
+        <ul class="list">
+          <li><a class="navigation" href="./index.html">Studio</a></li>
+          <li><a class="navigation" href="Portfolio">Portfolio</a></li>
+          <li><a class="navigation" href="Contacts">Contacts </a></li>
+        </ul>
+      </nav>
+      <address class="address" id="contacts">
+        <ul class="list">
+          <li>
+            <a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="address-contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+
   </header>
 
   <main>
@@ -107,7 +114,7 @@
     </section>
 
     <section>
-      <h2 class="heading-portfolio">Our Portfolio</h2>
+      <h2 class="heading-portfolio" id="portfolio">Our Portfolio</h2>
       <ul class="list">
         <li>
           <img src="./images/banking-app.jpg" alt="Photo of the app" width="360" height="300" />

@@ -38,6 +38,8 @@ img {
   width: 1158px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .header-nav {
@@ -151,6 +153,10 @@ img {
 }
 
 /*  main section 2 */
+.section-advantages {
+  padding: 120px 0 120px;
+}
+
 .advantages {
   color: #2e2f42;
   font-family: Roboto;
@@ -161,6 +167,15 @@ img {
   text-transform: capitalize;
 }
 
+.list-advantages {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  display: flex;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-heading {
   color: #2e2f42;
   font-family: Roboto;
@@ -168,6 +183,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .paragraph {

@@ -43,6 +43,7 @@ img {
 
 .header-nav {
   align-items: center;
+  display: flex;
 }
 
 .list {
@@ -87,9 +88,7 @@ img {
   margin-right: 40px;
   padding: 24px 0 24px;
 }
-.li-not-margin {
-  margin-right: 0;
-}
+
 .navigation:hover,
 .navigation:focus {
   color: #404bbf;

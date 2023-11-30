@@ -34,18 +34,14 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.top-line {
-  display: flex;
-  margin: 0 auto;
-}
 .container {
   width: 1158px;
+  display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
 .header-nav {
-  display: flex;
   align-items: center;
 }
 
@@ -97,9 +93,6 @@ img {
 .navigation:hover,
 .navigation:focus {
   color: #404bbf;
-}
-.address {
-  font-style: normal;
 }
 
 .address-contacts {

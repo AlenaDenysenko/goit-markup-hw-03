@@ -290,8 +290,12 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
-
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-studio-footer {
   color: #f4f4fd;
   line-height: 1.17;
@@ -306,4 +310,5 @@ img {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }

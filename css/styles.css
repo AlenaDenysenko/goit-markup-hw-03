@@ -30,13 +30,14 @@ img {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .container {
   width: 1158px;
   display: flex;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+  align-items: center;
 }
 
 .header-nav {
@@ -113,10 +114,9 @@ img {
 
 .heading {
   background-color: #2e2f42;
-}
-.container-hero {
   padding: 188px 0 188px;
 }
+
 .main-heading {
   color: #ffffff;
   text-align: center;

@@ -32,7 +32,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header {
+.container {
   width: 1158px;
   display: flex;
   margin: 0 auto;
@@ -111,11 +111,6 @@ img {
 
 /* main section 1 */
 
-.container-hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
-}
 .heading {
   background-color: #2e2f42;
 }

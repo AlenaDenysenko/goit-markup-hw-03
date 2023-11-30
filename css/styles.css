@@ -200,6 +200,8 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0 120px;
 }
+.container-team {
+}
 .team-list {
   background-color: #ffffff;
 }
@@ -240,6 +242,12 @@ img {
 }
 
 /* main section 4 */
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-portfolio {
+}
 
 .heading-portfolio {
   font-size: 36px;
@@ -248,6 +256,20 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.div-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .list-heading-portfolio {
   font-weight: 500;
@@ -255,6 +277,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-portfolio {
   font-size: 16px;

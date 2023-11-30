@@ -91,7 +91,7 @@ img {
   margin-right: 40px;
   padding: 24px 0 24px;
 }
-.list li:last-child a {
+.li-not-margin {
   margin-right: 0;
 }
 .navigation:hover,

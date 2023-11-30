@@ -34,10 +34,12 @@ img {
   padding: 0 15px 0 15px;
 }
 
+.div-box {
+  display: flex;
+}
+
 .container {
   width: 1158px;
-  display: flex;
-  align-items: center;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -200,8 +202,7 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0 120px;
 }
-.container-team {
-}
+
 .team-list {
   background-color: #ffffff;
 }
@@ -245,8 +246,6 @@ img {
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.container-portfolio {
 }
 
 .heading-portfolio {

@@ -112,11 +112,12 @@ img {
 /* main section 1 */
 
 .container-hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 .heading {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .main-heading {
@@ -129,6 +130,7 @@ img {
   letter-spacing: 0.02em;
   background-color: #2e2f42;
   max-width: 496px;
+  margin: auto;
 }
 
 .button {
@@ -138,14 +140,13 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: auto;
 }
 .button:hover,
 .button:focus {

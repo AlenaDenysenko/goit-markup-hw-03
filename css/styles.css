@@ -1,11 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-style: normal;
 }
-
+.container {
+  max-width: 1440px;
+}
 /* header */
+header {
+  width: 1440px;
+  height: 72px;
+  border: 0px, 0px, 1px, 0px;
+}
 .list {
   text-decoration: none;
   list-style-type: none;

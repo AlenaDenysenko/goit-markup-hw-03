@@ -25,6 +25,10 @@ body {
 .container {
   max-width: 1440px;
 }
+img {
+  display: block;
+}
+
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -43,9 +47,6 @@ body {
   display: flex;
   align-items: center;
 }
-.div-logo {
-  margin-right: 76px;
-}
 
 .list {
   text-decoration: none;
@@ -62,6 +63,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio {

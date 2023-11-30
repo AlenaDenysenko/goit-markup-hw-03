@@ -114,7 +114,9 @@ img {
 .heading {
   background-color: #2e2f42;
 }
-
+.container-hero {
+  padding: 188px 0 188px;
+}
 .main-heading {
   color: #ffffff;
   text-align: center;

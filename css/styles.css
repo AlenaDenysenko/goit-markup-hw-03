@@ -57,6 +57,11 @@ img {
   margin-right: 40px;
   padding: 24px 0 24px;
 }
+
+.list li:last-child {
+  margin-right: 0;
+}
+
 .logo-web {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
@@ -112,9 +117,6 @@ img {
 .address-contacts:hover,
 .address-contacts:focus {
   color: #404bbf;
-}
-.li-margin-right {
-  margin-right: 0;
 }
 
 /* main section 1 */

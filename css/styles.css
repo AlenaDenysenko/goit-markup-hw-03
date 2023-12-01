@@ -58,10 +58,6 @@ img {
   padding: 24px 0 24px;
 }
 
-.list li:last-child {
-  margin-right: 0;
-}
-
 .logo-web {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;

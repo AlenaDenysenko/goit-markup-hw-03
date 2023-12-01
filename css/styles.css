@@ -167,15 +167,6 @@ img {
   padding: 120px 0 120px;
 }
 
-.advantages {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -224,17 +215,21 @@ img {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-list li {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list li {
-  margin-right: 40px;
-}
-
-.team-list li:last-child {
-  margin-right: 0;
+.team-list li:not(:last-child) {
+  margin-right: 24px;
 }
 
 .ul-team {

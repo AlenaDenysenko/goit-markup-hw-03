@@ -54,9 +54,13 @@ img {
   list-style-type: none;
   font-style: normal;
   display: flex;
-  margin-right: 40px;
   padding: 24px 0 24px;
 }
+
+.list li {
+  margin-right: 40px;
+}
+
 .list li:last-child {
   margin-right: 0;
 }

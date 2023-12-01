@@ -176,6 +176,16 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 .ul-advantages {
   text-decoration: none;
@@ -217,6 +227,10 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list li {
+  margin-right: 40px;
 }
 
 .team-list li:last-child {

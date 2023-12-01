@@ -113,6 +113,9 @@ img {
 .address-contacts:focus {
   color: #404bbf;
 }
+.li-margin-right {
+  margin-right: 0;
+}
 
 /* main section 1 */
 
@@ -159,22 +162,25 @@ img {
   padding: 120px 0 120px;
 }
 
-.advantages {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
-.list-advantages {
+.ul-advantages {
   text-decoration: none;
   list-style-type: none;
   font-style: normal;
   display: flex;
-  margin-right: 24px;
+  gap: 24px;
+}
+.li-advantages {
   width: calc((100% - 72px) / 4);
 }
 
@@ -205,7 +211,10 @@ img {
 
 .team-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
 .ul-team {
   display: flex;
   margin-right: 24px;
@@ -269,6 +278,9 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.li-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 .list-heading-portfolio {
   font-weight: 500;

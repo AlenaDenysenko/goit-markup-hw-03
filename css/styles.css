@@ -57,6 +57,9 @@ img {
   margin-right: 40px;
   padding: 24px 0 24px;
 }
+.list li:last-child {
+  margin-right: 0;
+}
 
 .logo-web {
   font-weight: 700;
@@ -210,6 +213,10 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list li:last-child {
+  margin-right: 0;
 }
 
 .ul-team {

@@ -211,7 +211,7 @@ img {
 /*main section 3*/
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -232,13 +232,10 @@ img {
   margin-right: 24px;
 }
 
-.ul-team {
-  display: flex;
-  margin-right: 24px;
-}
 .div-team {
-  padding: 32px 0 32px;
+  padding: 32px 0;
 }
+
 .team-heading {
   font-size: 36px;
   line-height: 1.11;
@@ -267,7 +264,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-
 /* main section 4 */
 .section-portfolio {
   padding-top: 120px;

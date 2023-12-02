@@ -103,7 +103,6 @@ img {
 
 .address {
   margin-left: auto;
-  gap: 40px;
 }
 .list-contacts {
   text-decoration: none;
@@ -111,6 +110,7 @@ img {
   font-style: normal;
   display: flex;
   padding: 24px 0 24px;
+  gap: 40px;
 }
 
 .address-contacts {

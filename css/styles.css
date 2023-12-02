@@ -217,23 +217,24 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.team-list li {
+.team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
 }
 
-.team-list li:not(:last-child) {
+.team-item:not(:last-child) {
   margin-right: 24px;
 }
 
 .div-team {
   padding: 32px 0;
+  text-align: center;
 }
 
 .team-heading {
@@ -263,6 +264,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.team-list img {
+  display: block;
+  margin: 0 auto;
 }
 /* main section 4 */
 .section-portfolio {

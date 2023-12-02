@@ -176,6 +176,7 @@ img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  overflow: hidden;
 }
 
 .ul-advantages {
@@ -225,7 +226,7 @@ img {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
